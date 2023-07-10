@@ -6,8 +6,8 @@ import bpy
 
 
 # global addon script variables
-OUTPUT_TRAIN = 'train'
-OUTPUT_TEST = 'test'
+OUTPUT_TRAIN = 'images'
+OUTPUT_TEST = 'images'
 CAMERA_NAME = 'BlenderNeRF Camera'
 
 
