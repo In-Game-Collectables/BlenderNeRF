@@ -97,7 +97,7 @@ class BlenderNeRF_Operator(bpy.types.Operator):
         for frame in range(scene.frame_start, end + 1, step):
             scene.frame_set(frame)
             filename = os.path.basename( scene.render.frame_path(frame=frame) )
-            filedir = 'images'
+            filedir = './images/'
 
             frame_data = {
                 'file_path': os.path.join(filedir, filename),
